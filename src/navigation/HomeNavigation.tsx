@@ -12,7 +12,7 @@ import Profile from '../screens/Profile';
 
 const Tab = createBottomTabNavigator();
 
-const AppNavigation = () => {
+const AppNavigation = ({ navigation }: any) => {
 	const [menu, setMenu] = useState(false);
 
 	return (
@@ -47,11 +47,14 @@ const AppNavigation = () => {
 						<>
 							{menu && (
 								<View style={styles.container}>
-									<TouchableOpacity style={styles.find}>
+									<TouchableOpacity
+										style={styles.find}
+										onPress={() => navigation.navigate('PublicQuizzes')}>
 										<FontAwesome name='search' size={40} color='#14C1FA' />
 										<Text>Find Quiz</Text>
 									</TouchableOpacity>
-									<TouchableOpacity style={styles.find}>
+									<TouchableOpacity style={styles.find}
+									onPress={() => navigation.navigate('PublicQuizzes')}>
 										<MaterialIcons name='public' size={40} color='#14C1FA' />
 										<Text>Public Quizzes</Text>
 									</TouchableOpacity>

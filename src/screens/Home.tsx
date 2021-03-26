@@ -2,16 +2,16 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 import FindQuiz from '../components/FindQuiz';
-import PublicQuiz from '../components/PublicQuiz';
+import PublicQuizList from '../components/PublicQuizList';
 
-const Home = () => {
+const Home = ({ navigation }: any) => {
 	return (
 		<View style={styles.container}>
 			<View style={styles.intro}>
 				<Text style={styles.welcome}>👋 Welcome, Chris!</Text>
 			</View>
 			<FindQuiz />
-			<PublicQuiz />
+			<PublicQuizList navigation={navigation} />
 		</View>
 	);
 };

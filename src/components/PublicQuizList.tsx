@@ -1,16 +1,18 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
 import { AntDesign } from '@expo/vector-icons';
 
 import QuizItem from './QuizItem';
 
-const PublicQuiz = () => {
+const PublicQuizList = ({ navigation }: any) => {
 	return (
 		<View style={styles.container}>
-			<View style={styles.header}>
+			<TouchableOpacity
+				style={styles.header}
+				onPress={() => navigation.navigate('PublicQuizzes')}>
 				<Text style={styles.text}>Public Quizzes</Text>
 				<AntDesign name='arrowright' size={24} color='#14C1FA' />
-			</View>
+			</TouchableOpacity>
 			<QuizItem
 				image={require('../assets/math1.jpeg')}
 				title='Math'
@@ -30,7 +32,7 @@ const PublicQuiz = () => {
 	);
 };
 
-export default PublicQuiz;
+export default PublicQuizList;
 
 const styles = StyleSheet.create({
 	container: {
