@@ -14,17 +14,17 @@ const PublicQuizList = ({ navigation }: any) => {
 				<AntDesign name='arrowright' size={24} color='#14C1FA' />
 			</TouchableOpacity>
 			<QuizItem
-				image={require('../assets/math1.jpeg')}
+				image={require('../../assets/math1.jpeg')}
 				title='Math'
 				code='THG89X'
 			/>
 			<QuizItem
-				image={require('../assets/math1.jpeg')}
+				image={require('../../assets/math1.jpeg')}
 				title='English'
 				code='ACF36T'
 			/>
 			<QuizItem
-				image={require('../assets/math1.jpeg')}
+				image={require('../../assets/math1.jpeg')}
 				title='Science'
 				code='ZDJ14P'
 			/>

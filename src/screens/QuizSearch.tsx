@@ -1,14 +1,14 @@
-import React from 'react'
-import { StyleSheet, Text, View } from 'react-native'
+// import React from 'react'
+// import { StyleSheet, Text, View } from 'react-native'
 
-const QuizSearch = () => {
-    return (
-        <View>
-            <Text>Quiz Search</Text>
-        </View>
-    )
-}
+// const QuizSearch = () => {
+//     return (
+//         <View>
+//             <Text>Quiz Search</Text>
+//         </View>
+//     )
+// }
 
-export default QuizSearch
+// export default QuizSearch
 
-const styles = StyleSheet.create({})
+// const styles = StyleSheet.create({})

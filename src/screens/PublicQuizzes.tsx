@@ -35,32 +35,32 @@ const PublicQuizes = () => {
 			{active === 'all' ? (
 				<>
 					<QuizItem
-						image={require('../assets/math1.jpeg')}
+						image={require('../../assets/math1.jpeg')}
 						title='Math'
 						code='THG89X'
 					/>
 					<QuizItem
-						image={require('../assets/math1.jpeg')}
+						image={require('../../assets/math1.jpeg')}
 						title='English'
 						code='ACF36T'
 					/>
 					<QuizItem
-						image={require('../assets/math1.jpeg')}
+						image={require('../../assets/math1.jpeg')}
 						title='Science'
 						code='ZDJ14P'
 					/>
 					<QuizItem
-						image={require('../assets/math1.jpeg')}
+						image={require('../../assets/math1.jpeg')}
 						title='Math'
 						code='THG89X'
 					/>
 					<QuizItem
-						image={require('../assets/math1.jpeg')}
+						image={require('../../assets/math1.jpeg')}
 						title='English'
 						code='ACF36T'
 					/>
 					<QuizItem
-						image={require('../assets/math1.jpeg')}
+						image={require('../../assets/math1.jpeg')}
 						title='Science'
 						code='ZDJ14P'
 					/>
@@ -68,25 +68,25 @@ const PublicQuizes = () => {
 			) : (
 				<>
 					<QuizItem
-						image={require('../assets/math1.jpeg')}
+						image={require('../../assets/math1.jpeg')}
 						title='Math'
 						code='THG89X'
                         posted='Posted 5 Minutes Ago'
 					/>
 					<QuizItem
-						image={require('../assets/math1.jpeg')}
+						image={require('../../assets/math1.jpeg')}
 						title='English'
 						code='ACF36T'
                         posted='Posted 12 Hours Ago'
 					/>
 					<QuizItem
-						image={require('../assets/math1.jpeg')}
+						image={require('../../assets/math1.jpeg')}
 						title='Science'
 						code='ZDJ14P'
                         posted='Posted on February 2021'
 					/>
                     <QuizItem
-						image={require('../assets/math1.jpeg')}
+						image={require('../../assets/math1.jpeg')}
 						title='Math'
 						code='THG89X'
                         posted='Posted 5 Minutes Ago'
